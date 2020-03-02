@@ -152,13 +152,6 @@ function storeBestScore(num){
 		var portal = document.createElement('section');
 		portal.setAttribute('id', 'congrad');
 		
-		var bg = document.createElement('img');
-		bg.setAttribute('id', 'transparent');
-		bg.setAttribute('src', 'Transparent.png');
-		bg.setAttribute('alt', '');
-		bg.style.maxWidth = window.innerWidth;
-		bg.style.maxHeight = window.innerHeight;
-		bg.style.marginLeft = (10 - window.innerWidth) + 'px';
 		
 		var base = document.createElement('img');
 		base.setAttribute('src', 'base.png');
@@ -203,13 +196,11 @@ function storeBestScore(num){
 		portal.appendChild(replay);
 		
 		var body = document.querySelector('body');
-		body.appendChild(bg);
 		body.appendChild(portal);
 		
 		
 		replay.onclick = function again(){
 			
-			body.removeChild(bg);
 			body.removeChild(portal);
 			
 					endGame = false;
