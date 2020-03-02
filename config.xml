@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.github.xiyalivoiyance.Bambie" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.github.xiyalivoiyance.Bambie" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://github.com/xiyalivoiyance/Bambie">
     <name>Bambie</name>
     <description>
-        A game
+        A game that let you catch falling balls and keep a record. The maximum amount of balls recorded would be 999 as probably no one would be bored enough to go beyond that number, but you can still keep going, technically speaking.
     </description>
     <author email="xiyalivoiyance@gmail.com" href="http://xiyalivoiyance.github.io">
         XIYALIXIYA
